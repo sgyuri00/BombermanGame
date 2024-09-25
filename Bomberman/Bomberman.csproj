@@ -1,0 +1,115 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="logo.png" />
+    <None Remove="Resources\blast.png" />
+    <None Remove="Resources\Images\bomb.png" />
+    <None Remove="Resources\Images\enemy.png" />
+    <None Remove="Resources\Images\enemy1.png" />
+    <None Remove="Resources\Images\enemy1_dead.png" />
+    <None Remove="Resources\Images\enemy2.png" />
+    <None Remove="Resources\Images\enemy2_dead.png" />
+    <None Remove="Resources\Images\enemy3.png" />
+    <None Remove="Resources\Images\enemy3_dead.png" />
+    <None Remove="Resources\Images\enemy_blast.png" />
+    <None Remove="Resources\Images\enemy_dead.png" />
+    <None Remove="Resources\Images\EPB1.png" />
+    <None Remove="Resources\Images\EPB2.png" />
+    <None Remove="Resources\Images\EPB3.png" />
+    <None Remove="Resources\Images\explosion.png" />
+    <None Remove="Resources\Images\floor.png" />
+    <None Remove="Resources\Images\healthkitPU.png" />
+    <None Remove="Resources\Images\logo.png" />
+    <None Remove="Resources\Images\player.png" />
+    <None Remove="Resources\Images\player_dead.png" />
+    <None Remove="Resources\Images\PPB.png" />
+    <None Remove="Resources\Images\rangePU.png" />
+    <None Remove="Resources\Images\shield.png" />
+    <None Remove="Resources\Images\speedPU.png" />
+    <None Remove="Resources\Images\test_floor.png" />
+    <None Remove="Resources\Levels\level.lvl" />
+    <None Remove="Resources\wall.png" />
+    <None Remove="Resources\wood.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Images\enemy3_dead.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <Content Include="Resources\Levels\level.lvl">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Images\blast.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Images\bomb.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Images\enemy1.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Images\enemy1_dead.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Images\enemy2.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Images\enemy2_dead.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Images\enemy3.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Images\enemy_blast.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Images\EPB1.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Images\EPB2.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Images\EPB3.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Images\floor.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Images\healthkitPU.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Images\player.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Images\player_dead.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Images\PPB.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Images\rangePU.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Images\speedPU.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <Resource Include="logo.png" />
+    <Resource Include="Resources\Images\logo.png" />
+    <EmbeddedResource Include="Resources\Images\wall.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Images\wood.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>
